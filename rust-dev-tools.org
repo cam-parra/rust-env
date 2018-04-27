@@ -1,0 +1,30 @@
+* Rust Dev Tools
+** Atom IDE
+
+Atom is GitHub's text editor and can be configured to be a powerful yet light 
+weight IDE.
+
+Download link : [[https://atom.io/][atom]] 
+
+*** Atom Set Up for MacOS
+
+
+Open up and Atom and click *Atom* on the menu bar and select _Install Shell Commands_
+
+This will allow Atom to be initialized from the command line and also install the
+apm (Atom Package Manager)
+
+
+#+BEGIN_SRC
+
+apm install atom-ide-ui	intentions linter linter-ui-default busy-signal	language-rust linter-rust
+
+#+END_SRC
+
+
+
+Now restart atom and under the *Atom* menu bar item go to _preferences > packages_> atom-ide-ui_
+Under settings  go to _Enable Features_ and then set Enable Diagnostics to NEVER
+
+
+
